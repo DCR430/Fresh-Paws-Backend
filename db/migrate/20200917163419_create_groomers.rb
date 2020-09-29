@@ -4,7 +4,7 @@ class CreateGroomers < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :image
       t.string :address
-      t.string :zip
+      t.integer :zip
       t.string :phone
       t.float :longitude
       t.float :latitude
